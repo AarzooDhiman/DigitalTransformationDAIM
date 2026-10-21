@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The JUDGE framework | DAIM Digital Transformation Group</title>
+  <meta name="description" content="DAIM's Digital Transformation Group, University of Hull: the JUDGE framework for professional judgement with generative AI.">
+  <meta property="og:title" content="The JUDGE framework | DAIM Digital Transformation Group">
+  <meta property="og:description" content="DAIM's Digital Transformation Group, University of Hull: the JUDGE framework for professional judgement with generative AI.">
+  <meta property="og:type" content="website">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    /* Apply a saved light/dark choice before the page paints. */
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      try { var t = localStorage.getItem('theme'); if (t) d.setAttribute('data-theme', t); } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- SHARED HEADER: identical on every page (only aria-current changes). -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-kicker">DAIM · University of Hull</span>
+        <span class="brand-name">Digital Transformation Group</span>
+      </a>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" hidden><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span class="label">Dark</span></button>
+        <button class="icon-button nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" hidden>Menu</button>
+      </div>
+    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <div class="wrap">
+        <ul>
+          <li><a class="nav-button" href="index.html">Home</a></li>
+          <li><a class="nav-button" href="about.html">About</a></li>
+          <li><a class="nav-button" href="judge.html" aria-current="page">The JUDGE framework</a></li>
+          <li><a class="nav-button" href="students.html">For students</a></li>
+          <li><a class="nav-button" href="staff.html">For staff</a></li>
+          <li><a class="nav-button" href="work-with-us.html">Work with us</a></li>
+          <li><a class="nav-button" href="opportunities.html">Student opportunities</a></li>
+          <li><a class="nav-button" href="research.html">Research</a></li>
+          <li><a class="nav-button" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- END SHARED HEADER -->
+
+  <main id="main">
+    <header class="page-header">
+      <div class="wrap">
+        <h1>The JUDGE framework</h1>
+        <p class="lede">JUDGE <mark class="placeholder">[expansion to confirm]</mark> is DAIM's framework for professional judgement in an AI-enabled world. In 2026/27 it has three strands.</p>
+      </div>
+    </header>
+
+    <section class="section" aria-label="JUDGE strands">
+      <div class="wrap">
+        <table class="table-strands">
+          <caption class="visually-hidden">JUDGE strands, 2026/27</caption>
+          <thead>
+            <tr><th scope="col">Strand</th><th scope="col">Who it's for</th><th scope="col">What it involves</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Graduate Standard</th>
+              <td data-label="Who it's for">Undergraduate and taught postgraduate students, across more than one school</td>
+              <td data-label="What it involves">Workshops, self-study exercises and assessed evidence of judgement</td>
+            </tr>
+            <tr>
+              <th scope="row">Essentials</th>
+              <td data-label="Who it's for">University staff, including professional services</td>
+              <td data-label="What it involves">A workshop on where AI fails in real university work and where people stay in the loop</td>
+            </tr>
+            <tr>
+              <th scope="row">Applied</th>
+              <td data-label="Who it's for">University teams and functions</td>
+              <td data-label="What it involves">Real staff challenges turned into student projects</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="delegation-title">
+      <div class="wrap">
+        <h2 id="delegation-title">The delegation test</h2>
+        <p>Before handing a task to AI, ask three questions:</p>
+        <ol class="checklist">
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><strong>Consequence:</strong> Does the output affect someone's outcome?</span></li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><strong>Reversibility:</strong> Would a mistake be hard to undo?</span></li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><strong>Verifiability:</strong> Can you check it properly in under five minutes?</span></li>
+        </ol>
+        <div class="callout">
+          <p>If the output affects someone's outcome, is hard to reverse, or can't be checked in five minutes, <strong>a person decides.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="glance-title">
+      <div class="wrap">
+        <h2 id="glance-title">2026/27 at a glance</h2>
+        <ol class="timeline">
+          <li>
+            <h3>Trimester 1</h3>
+            <p>After MSc workshop runs; self-study exercises published; first staff challenges gathered.</p>
+          </li>
+          <li>
+            <h3>Trimester 2</h3>
+            <p>After MSc extended to a second school or level; staff guidelines and the staff workshop developed; hidden curriculum pages published.</p>
+          </li>
+          <li>
+            <h3>Trimesters 2–3</h3>
+            <p>Staff workshop delivered; student projects and a hackathon built on staff challenges.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <!-- SHARED FOOTER: identical on every page. -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-name">DAIM Digital Transformation Group</p>
+        <p>Data, Artificial Intelligence and Modelling · University of Hull</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="judge.html">The JUDGE framework</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- END SHARED FOOTER -->
+</body>
+</html>
