@@ -9,13 +9,17 @@
 
 The Digital Transformation Group in DAIM (Data, Artificial Intelligence and Modelling) at the University of Hull helps students and staff use generative AI well. That means knowing what to hand to AI, what to check, and when a person has to decide.
 
+### Coming soon: Agentic AI Bootcamp
+A hands-on bootcamp on building and evaluating AI agents, open to all DAIM students. [Dates] · [Location / online]
+→ [Find out more]() · [Register]
+
 ### Intro
 Generative AI can draft a literature review, summarise a policy or build a slide deck in seconds. It cannot take responsibility for the result. JUDGE is our framework for building that judgement into how we teach, how we assess, and how the university works.
 
 ### Three cards
 - **For students:** Learn to spot where AI gets it wrong, and build work you can stand behind. → Student resources
 - **For staff:** Practical guidance on using GenAI in teaching, assessment and everyday work, and on where a person needs to stay in charge. → Staff guidance
-- **Work with us:** Bring a real challenge from your team. Our students will work on it. → JUDGE Applied
+- **Work with us:** Bring a real challenge from your team. Our students will work on it. → JUDGE Applied. \n Suggest a challenge and we can host hackathon for you.
 
 ---
 
@@ -37,13 +41,16 @@ The Digital Transformation Group works on one question: how can students and sta
 - **Responsible by design.** We collect workshop data only with ethics approval and informed consent.
 
 ### Who we are
-[Names, roles and links to staff profiles]
+Dr Aarzoo Dhiman, 
+Dr Harriet Deacon, 
+Dr Julius Mboli
+Dr Adil Khan
 
 ---
 
 ## PAGE: The JUDGE framework
 
-JUDGE [expansion to confirm] is DAIM's framework for professional judgement in an AI-enabled world. In 2026/27 it has three strands.
+JUDGE is DAIM's framework for professional judgement in an AI-enabled world. In 2026/27 it has three strands.
 
 | Strand | Who it's for | What it involves |
 |---|---|---|
@@ -71,7 +78,21 @@ If the output affects someone's outcome, is hard to reverse, or can't be checked
 
 ### After MSc workshop
 A group discussion workshop built around fictional characters facing real decisions about using AI after their studies. Through these characters you work out when AI helps, when it misleads, and what a professional should do. It has already run with MSc students. Versions for undergraduates and other schools are on the way.
-Next session: [date and booking link]
+Next session: Week 9, Research and Application [Booking link]
+
+### Agentic AI Bootcamp {#agentic-ai-bootcamp}
+
+**[Dates] · [Time] · [Location / online] · Open to all DAIM students**
+
+AI is moving beyond chatbots that answer questions to agents that plan, use tools and carry out multi-step tasks on their own. This bootcamp shows you how these systems work, how to build one, and how to judge whether it can be trusted.
+
+#### What you'll do
+- Learn what makes a system "agentic": planning, memory, tool use and multi-step reasoning.
+- Build a working agent that uses tools to complete a real task.
+- Test it: find where it fails, loops, invents information or takes the wrong action.
+- Decide where a person must stay in the loop. The JUDGE delegation test (consequence, reversibility, verifiability) applies even more when AI is taking actions, not just writing text.
+- [Optional: Work on a challenge drawn from real university processes]
+
 
 ### Learn by finding the faults
 A set of self-study exercises and quizzes. Each one gives you an AI-generated piece of work that looks convincing but contains mistakes, such as:
@@ -137,8 +158,23 @@ Every team has tasks that are slow, repetitive or frustrating. Through JUDGE App
 ### What we need from you
 A short description of the task: what it starts from, the steps your team takes now, what a good result looks like, and who can answer students' questions.
 
-### Hackathons
-Our hackathons use DAIM's three-track format. At least one track comes from a real staff challenge.
+### DAIM Hackathon {#hackathon}
+
+![Students working in teams at the DAIM Hackathon 2026](../hackathon-2026.jpeg)
+*DAIM Hackathon 2026: DAIM LAB, University of Hull, with the staff and students]*
+
+The DAIM Hackathon brings students together in teams to tackle real problems in a single, intense event. We've run it twice, in 2024 and 2026, and it keeps growing: around 40 students took part in 2026.
+
+#### How it works
+One day spent on working on real-time projects with your colleagues to test state-of-the-art AI tools. 
+
+#### Past hackathons
+| Year | Participants | Highlights |
+|---|---|---|
+| 2026 | ~40 students | [Winning team / project, or a key highlight] |
+| 2024 | ~ 20 students | [Winning team / project, or a key highlight] |
+
+**Next hackathon:** [Trimester 2–3, 2027, dates to be announced]. Register interest: [link]
 
 → [Suggest a challenge]
 
@@ -150,6 +186,7 @@ The best DAIM students get chances to represent us beyond the classroom.
 - **Shared tasks and competitions:** Teams of DAIM students take part in international challenges, such as the CIKM 2026 UniAgent shared task.
 - **Student seminars:** Students present their project work to staff and peers.
 - **Hackathons:** Team events built on real problems, including challenges from university staff.
+
 
 [Upcoming events]
 

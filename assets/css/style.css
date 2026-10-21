@@ -375,25 +375,25 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 /* ---------- JUDGE: strands table (stacks into cards on mobile) ---------- */
-.table-strands {
+.data-table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
   font-size: 1rem;
 }
-.table-strands caption {
+.data-table caption {
   text-align: left;
   font-weight: 600;
   color: var(--text-muted);
   padding-bottom: 0.5rem;
 }
-.table-strands th, .table-strands td {
+.data-table th, .data-table td {
   text-align: left;
   vertical-align: top;
   padding: 0.9rem 1rem;
   border-bottom: 1px solid var(--border);
 }
-.table-strands thead th {
+.data-table thead th {
   background: var(--bg-subtle);
   font-size: 0.85rem;
   letter-spacing: 0.04em;
@@ -401,20 +401,20 @@ a:hover { text-decoration-thickness: 2px; }
   color: var(--text-muted);
   border-bottom: 2px solid var(--accent);
 }
-.table-strands tbody th { font-family: Georgia, serif; font-size: 1.1rem; color: var(--accent); white-space: nowrap; }
+.data-table tbody th { font-family: Georgia, serif; font-size: 1.1rem; color: var(--accent); white-space: nowrap; }
 
 @media (max-width: 40rem) {
-  .table-strands thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  .table-strands, .table-strands tbody, .table-strands tr, .table-strands th, .table-strands td { display: block; }
-  .table-strands tr {
+  .data-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .data-table, .data-table tbody, .data-table tr, .data-table th, .data-table td { display: block; }
+  .data-table tr {
     border: 1px solid var(--border);
     border-top: 4px solid var(--accent);
     border-radius: 10px;
     padding: 0.5rem 0;
     margin-bottom: 1rem;
   }
-  .table-strands th, .table-strands td { border: 0; padding: 0.35rem 1rem; }
-  .table-strands td::before {
+  .data-table th, .data-table td { border: 0; padding: 0.35rem 1rem; }
+  .data-table td::before {
     content: attr(data-label);
     display: block;
     font-size: 0.8rem;
@@ -568,3 +568,20 @@ details[open] summary { margin-bottom: 0.5rem; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* ---------- Figures ---------- */
+.figure { margin: 1.5rem 0; }
+.figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+.callout h2 { margin-top: 0; }
